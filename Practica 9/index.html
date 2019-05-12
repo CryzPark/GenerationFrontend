@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica 9</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+
+        </header>
+        <section>
+            <div class="row">
+                <h2>Datos Personales del Weon</h2>
+            </div>
+            <div class="row">            
+                <form action="destino.html" method="POST">
+                    <div class="form-group">
+                        <p>
+                            <label for="txtNombre">Nombre: </label><br>
+                            <input type="text"  id="txtNombre" name="txtNombre" placeholder="Juan Weon" class="form-control" required>
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            <label for="txtNombre">Apellido</label><br>
+                            <input type="text" id="txtNombre" name="txtApellido" placeholder="Jimenez" class="form-control" required>
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <p>Selecciona el Tamaño</p>
+                        <div class="radio">
+                            <input type="radio" name="rbTamanioPizza" id="rbTamanioPizza1" value="ch">
+                                <label for="rbTamanioPizza1">Chica</label>
+                            </input>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="rbTamanioPizza" id="rbTamanioPizza2" value="med">
+                                <label for="rbTamanioPizza2">Mediana</label>
+                            </input>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="rbTamanioPizza" id="rbTamanioPizza3" value="gde">
+                                <label for="rbTamanioPizza3">Grande</label>
+                            </input>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            Selecciona los Ingredientes
+                        </p>
+                        <div class="checkbox">
+                            <input type="checkbox" name="cbIngredientesPizza" id="cbIngredientesPizza1" value="chorizo">
+                                <label for="cbIngredientesPizza1">Chorizo</label>
+                            </input>
+                            <input type="checkbox" name="cbIngredientesPizza" id="cbIngredientesPizza2" value="pepperoni">
+                                <label for="cbIngredientesPizza2">Pepperoni</label>
+                            </input>
+                            <input type="checkbox" name="cbIngredientesPizza" id="cbIngredientesPizza3" value="jamon">
+                                <label for="cbIngredientesPizza3">Jamon</label>
+                            </input>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            <input type="submit" value="Enviar" class="btn">
+                            <button type="button" class="btn btn-primary">Primary</button>
+                            <button type="button" class="btn btn-secondary">Secondary</button>
+                            <button type="button" class="btn btn-success">Success</button>
+                            <button type="button" class="btn btn-danger">Danger</button>
+                            <button type="button" class="btn btn-warning">Warning</button>
+                            <button type="button" class="btn btn-info">Info</button>
+                            <button type="button" class="btn btn-light">Light</button>
+                            <button type="button" class="btn btn-dark">Dark</button>
+                            <button type="button" class="btn btn-link">Link</button>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

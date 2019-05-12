@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica SVN</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Practica SVN</h2>
+        </header>
+        <section>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate animi tenetur voluptatum inventore alias quisquam. Iusto necessitatibus nemo, debitis dolorem, ipsam nobis ratione, quia at beatae id harum perferendis veniam eos. Esse qui, expedita, eveniet nisi veritatis, voluptatem architecto reiciendis ab aliquid dolore illo in itaque magnam dolor libero impedit?
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod saepe totam velit eligendi mollitia id corrupti illum sunt voluptatum placeat doloribus nemo, deserunt sit minus ipsa maiores sint veritatis repellat laboriosam voluptatem officia dolor modi. Necessitatibus ducimus ratione, vero ipsum expedita et, libero quo consectetur at repudiandae non laboriosam praesentium!
+            </p>
+            <p>Barreto ya ando aqui en tu documento</p>
+        </section>
+        <footer>
+    
+        </footer>
+    </div>
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

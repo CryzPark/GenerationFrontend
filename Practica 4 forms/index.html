@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="main">
+        <section>
+            <h2>Alta de Alumnos</h2>
+            <form action="destino.html" method="post">
+                <p>
+                    <label for="txtIdAlumno">ID Alumno:</label>
+                    <input type="text" name="txtIdAlumno" id="txtIdAlumno" placeholder="No Control" required autofocus>
+                </p>
+                <p>
+                    <label for="txtNombreAlumno">Nombre Alumno:</label>
+                    <input type="text" name="txtNombreAlumno" id="txtNombreAlumno" placeholder="Juan Perez" required>
+                </p>
+                <p>
+                    <label for="txtTel">Tel</label>
+                    <input type="tel" name="txtTel" id="txtTel" placeholder="Telefono" required>
+                </p>
+                <p>
+                    <label for="txtSearch">Search:</label>
+                    <input type="search" name="txtSearch" id="txtSearch" placeholder="Busqueda" required>
+                </p>
+                <p>
+                    <label for="txtUrl">URL:</label>
+                    <input type="url" name="txtUrl" id="txtUrl" placeholder="https://" required>
+                </p>
+                <p>
+                    <label for="txtEmail">e-mail:</label>
+                    <input type="email" name="txtEmail" id="txtEmail" placeholder="example@generation.org" required>
+                </p>
+                <p>
+                    <label for="txtDateTime">Date:</label>
+                    <input type="datetime" name="txtDateTime" id="txtDateTime" required>
+                </p>
+                <p>
+                    <label for="txtMonth">Month:</label>
+                    <input type="month" name="txtMonth" id="txtMonth" placeholder="April" required>
+                </p>
+                <p>
+                    <label for="txtWeek">Week:</label>
+                    <input type="week" name="txtWeek" id="txtWeek" required>
+                </p>
+                <p>
+                    <label for="txtTime">Time:</label>
+                    <input type="time" name="txtTime" id="txtTime" required>
+                </p>
+                <p>
+                    <label for="txtDateTimeLocal">DateTime Local:</label>
+                    <input type="datetime-local" name="txtDateTimeLocal" id="txtDateTimeLocal" required>
+                </p>
+                <p>
+                    <label for="txtNumber">Number:</label>
+                    <input type="number" name="txtNumber" id="txtNumber" placeholder="Numero de algo?" required>
+                </p>
+                <p>
+                    <label for="txtRange">Range:</label>
+                    <input type="range" name="txtRange" id="txtRange" required min="5" max="50" step="10">
+                </p>
+                <p>
+                    <label for="txtColor">Color:</label>
+                    <input type="color" name="txtColor" id="txtColor" required>
+                </p>
+                <p>
+                    <label for="txtContacts">Contacts</label>
+                    <datalist id="Contacts">
+                        <option value="mane@generation.org" label="Mané">
+                        <option value="marijo@generation.org" label="Marijó">
+                        <option value="rigo@genration.org" label="Rigo">
+                    </datalist>
+                    <input type="email" id="txtContacts" name="txtContacts" list="Contacts">
+                </p>
+                <fieldset>
+                    <legend>Arma tu Pizza Ideal!!!</legend>
+                        <p>
+                            <label for="txtLista">Selecciona tu Pizza</label>
+                            <select name="txtLista" id="txtLista" required>
+                                <option value="cheese">Cheese</option>
+                                <option value="soft">Soft</option>
+                                <option value="crunchy">Crunchy</option>
+                                <option value="flaminghot">Flamin  Hot</option>
+                            </select>
+                        </p>
+                        <p>
+                            <fieldset>
+                                <legend>Selecciona el Tamaño:</legend>
+                                <!--Required en cualquiera de los CheckBox funciona para todos por igual
+                                Checked selecciona el elemento por defecto y no es necesario poner los 2
+                                por que es redundante-->
+                                <input type="radio" name="txtRBSize" id="txtRBSize1" value="gde" required>
+                                <label for="txtRBSize1">Grande</label><br/>
+                                <input type="radio" name="txtRBSize" id="txtRBSize2" value="med">                             
+                                <label for="txtRBSize2">Mediana</label><br/>   
+                                <input type="radio" name="txtRBSize" id="txtRBSize3" value="ch">
+                                <label for="txtRBSize3">Chica</label><br/>
+                            </fieldset>
+                        </p>
+                        <p>
+                            <fieldset>
+                                <legend>Selecciona los Ingredientes:</legend>
+                                <input type="checkbox" name="txtCBIngredients" id="txtCBIngredients1" value="chorizo">
+                                <label for="txtCBIngredients1">Chorizo</label><br/>
+                                <input type="checkbox" name="txtCBIngredients" id="txtCBIngredients2" value="jamon">
+                                <label for="txtCBIngredients2">Jamon</label><br/>
+                                <input type="checkbox" name="txtCBIngredients" id="txtCBIngredients3" value="pepperoni">
+                                <label for="txtCBIngredients3">Pepperoni</label><br/>
+                            </fieldset>
+                        </p>
+                </fieldset>
+                <p>
+                    <input type="submit" value="Da Click!!!">
+                </p>
+            </form>
+        </section>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

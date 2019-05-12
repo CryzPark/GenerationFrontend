@@ -1,0 +1,41 @@
+h2{
+    color: aqua;
+    text-align: center;
+}
+
+#img_bootstrap
+{
+    width: 100px;
+}
+
+#menuNavegacion li
+{
+    display: inline;
+    list-style: none;
+    padding: 30px;
+}
+
+#menuNavegacion ul{
+    padding-top: 10px;
+}
+
+#menuNoticias li
+{
+    list-style: none;
+    padding: 10px;
+}
+
+section
+{
+    border: green 3px solid;
+}
+
+header
+{
+    border: purple 3px solid;
+}
+
+nav
+{
+    border: blueviolet 3px solid;
+}

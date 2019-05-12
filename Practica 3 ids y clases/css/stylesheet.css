@@ -1,0 +1,19 @@
+h2{
+    color: aqua;
+}
+
+article{
+    background-color: cadetblue;
+}
+
+.par{
+    background-color: aquamarine;
+}
+
+.impar{
+    background-color: burlywood;
+}
+
+#parrafo1, #parrafo6{
+    text-align: center;
+}

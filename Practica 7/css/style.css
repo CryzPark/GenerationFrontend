@@ -1,0 +1,20 @@
+h2{
+    color: aqua;
+}
+
+li
+{
+    display: inline;
+    list-style: none;
+    padding: 30px;
+}
+
+header
+{
+    border: purple 1px solid;
+}
+
+nav
+{
+    border: blueviolet 1px solid;
+}

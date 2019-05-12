@@ -1,0 +1,24 @@
+/*Comentarios en CSS*/
+h1{
+    color: blue;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+nav{
+    background-color: brown;
+}
+
+aside{
+    background-color: blueviolet;
+}
+
+section{
+    background-color: burlywood;
+}
+
+footer{
+    background-color: coral;
+}
